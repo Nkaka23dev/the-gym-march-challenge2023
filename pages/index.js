@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { Inter, Libre_Baskerville } from 'next/font/google'
 import NavBar from '@/components/NavBar'
-import { BsArrowRight } from "react-icons/bs"
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Programmes from '@/components/Programmes'
@@ -9,8 +8,6 @@ import Current from '@/components/Current'
 import News from '@/components/News'
 import Links from '@/components/Links'
 
-const inter = Libre_Baskerville({ weight: '700', subsets: ['latin'] })
-const inter3 = Libre_Baskerville({ weight: '400', subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -29,6 +26,13 @@ export default function Home() {
         <News />
         <Links />
         <Footer />
+        <div>
+          <div className='fixed gap-2 py-2 px-4 flex items-center -rotate-90 -right-[3.2rem] top-[50%] bg-[#e6e6e6] z-50 text-xl'>
+          <img src="./svgs/message.svg" alt="" />
+            <p className='text-black'>feedbacks</p>
+          </div>
+        </div>
+       
       </main>
     </>
   )

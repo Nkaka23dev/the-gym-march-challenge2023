@@ -5,6 +5,26 @@
 .shade {
   box-shadow: 0 2px 10px rgb(0 0 0 / 15%);
 }
+.shade2 {
+  box-shadow: 0 2px 10px rgb(0 0 0 / 5%);
+}
 /* .m{
   background: #575757;
 } */
+
+.n:hover {
+  box-shadow:  #000000 0px 2px 10px 0px
+}
+
+.m:hover{
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: gray 0px 2px 12px 0px
+}
+.pro{
+  box-shadow:  #000000 0px 0.520661px 2.08264px 0px;
+}
+.card:hover{
+      box-shadow: 0 10px 20px rgb(0 0 0 / 15%), 0 5px 15px rgb(0 0 0 / 25%);
+}
+
