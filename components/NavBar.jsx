@@ -18,8 +18,7 @@ export default function NavBar() {
       setHide(false);
     }
   };
-
-  const whenScroll2 = () => {
+const whenScroll2 = () => {
     if (window.scrollY < 300) {
       setHide2(true);
     } else {
@@ -111,7 +110,7 @@ export default function NavBar() {
                 <li className="relative group">
                 <Link
                   className={`text-xl border-b-2 border-transparent hover:border-b-[#bd0032]  pb-3  hover:text-[#bd0032] tracking-wide ${inter3.className} text-[#464548]`}
-                  href="#" 
+                  href={i.title} 
                 >
                   {i.title}
                 </Link>
@@ -119,7 +118,7 @@ export default function NavBar() {
                    <div className={`flex flex-col  w-72 pl-6 space-y-2 ${e === 4?"pt-0 pb-0":"pb-8 pt-4"} `}> 
                    {i.link.map((e,val) => {
                     return (
-                      < Link className="hover:text-[#bd0032] cursor-pointer text-md tracking-wide hover:underline text-[#464548]" key={val} href="#">{e.title}</Link>
+                      <Link href={e.title} className="hover:text-[#bd0032] cursor-pointer text-md tracking-wide hover:underline text-[#464548]" key={val}>{e.title}</Link>
                     )
                    })}
                    </div>

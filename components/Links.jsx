@@ -18,7 +18,7 @@ export default function Links() {
             <div className='grid md:grid-cols-1 grid-cols-3 gap-6'>
               {[{ title: "Alumni", link: "alumni" }, { title: " PhD", link: "uva" }, { title: "UVA Experts", link: "phd" }, { title: "UVA Experts", link: "uva" }, { title: "Staff website", link: "staff" }, { title: "Student website", link: "student" }].map((value, el) => {
                 return (
-                  <div className='card cursor-pointer transition-all duration-500 ease-in-out '>
+                  <div className='card hover:underline cursor-pointer transition-all duration-500 ease-in-out '>
                     <div className='border pb-10 border-gray-200 bg-white px-5 py-3 space-y-3'>
                       <p className={`text-[1.45rem] font-bold hover:text-red-500 cursor-pointer ${inter.className}`}>
                         {value.title}

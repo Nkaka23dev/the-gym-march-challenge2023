@@ -7,6 +7,8 @@ import Programmes from '@/components/Programmes'
 import Current from '@/components/Current'
 import News from '@/components/News'
 import Links from '@/components/Links'
+import MobHeader from '@/components/MobHeader'
+import MobFooter from '@/components/MobFooter'
 
 
 export default function Home() {
@@ -20,13 +22,15 @@ export default function Home() {
       </Head>
       <main>
         <NavBar />
+        <MobHeader/>
         <Hero />
         <Programmes />
         <Current />
         <News />
         <Links />
         <Footer />
-        <div>
+        <MobFooter/>
+        <div className='md:hidden'>
           <div className='fixed gap-2 py-2 px-4 flex items-center -rotate-90 -right-[3.2rem] top-[50%] bg-[#e6e6e6] z-50 text-xl'>
           <img src="./svgs/message.svg" alt="" />
             <p className='text-black'>feedbacks</p>

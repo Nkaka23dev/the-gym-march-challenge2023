@@ -11,9 +11,9 @@ export default function Hero() {
   return (
     <>
      {/* hero section */}
-     <section className='md:px-3 mt-32'>
-          <div className='max-w-6xl mx-auto grid grid-cols-2 py-12  md:grid-cols-1'>
-            <div className='pt-24 space-y-1'>
+     <section className='md:px-3 mt-32 md:mt-24'>
+          <div className='max-w-6xl mx-auto grid grid-cols-2 py-12 md:py-2  md:grid-cols-1'>
+            <div className='pt-24 md:pt-0 space-y-1'>
               <h1 className={`text-[2.50rem] ${inter.className} font-semibold`}>University of Amsterdam</h1>
               <p className={`text-[1.7rem] ${inter3.className}`}>Inspiring generations since 1632.</p>
             </div>
