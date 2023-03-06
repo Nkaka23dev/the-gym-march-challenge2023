@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
         {hidde && <button
       ref={buttonRef}
-      className="py-4 px-3 right-5  bg-[#e6e6e6] text-xl border border-black fixed top-[80%] rounded-lg transition-all duration-300  z-50"
+      className="py-4 px-3 right-5  bg-[#e6e6e6] text-xl border border-black fixed top-[80%]  transition-all duration-300  z-50"
       onClick={handleClick}
     >
       <Link href="#"> <SlArrowUp/></Link>
