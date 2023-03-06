@@ -16,7 +16,7 @@ export default function Modal() {
         </div>
         <div>
           <div className="flex">
-            <div className="flex flex-col bg-white space-y-5 py-2 px-4">
+            <div className="flex flex-col bg-white space-y-8 py-4 px-4">
               {[1, 2, 3, 4].map(() => {
                 return (
                   <div>

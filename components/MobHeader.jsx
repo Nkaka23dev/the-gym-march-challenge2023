@@ -29,7 +29,7 @@ export default function MobHeader() {
           <div className="border border-black p-2">
                 <img src="./svgs/nl.svg" alt="" />
               </div>
-            <div  onClick={handClick} className="border cursor-pointer border-[#2A282B] bg-black p-2">
+            <div  onClick={handClick} className="border cursor-pointer border-[#2A282B] bg-[#2A282B]  p-2">
               <VscMenu className="text-white text-2xl"/>
             </div>
         </div>
