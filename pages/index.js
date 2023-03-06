@@ -28,7 +28,7 @@ export default function Home() {
         <Current />
         <News />
         <Links />
-        <Footer />
+        
         <MobFooter/>
         <div className='md:hidden'>
           <div className='fixed gap-2 py-2 px-4 flex items-center -rotate-90 -right-[3.2rem] top-[50%] bg-[#e6e6e6] z-50 text-xl'>
