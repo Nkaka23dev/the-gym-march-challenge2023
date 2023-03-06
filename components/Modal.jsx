@@ -28,9 +28,11 @@ export default function Modal() {
             <div className="w-full">
               {[{title: "Education", link: "education"}, {title: "Research", link: "research"}, {title: "News Events", link: "news"}, {title: "About the UVA", link: "about"}, {title: "Library", link: "library"}].map((val,e) => {
                 return (
-                  <div key={e} className="border-b border-b-white text-sm cursor-pointer w-full py-3 px-3">
+                  <Link key={e} href={val.title}>
+                  <div  className="border-b border-b-white text-sm cursor-pointer w-full py-3 px-3">
                     {val.title}
                   </div>
+                  </Link>
                 );
               })}
             </div>
